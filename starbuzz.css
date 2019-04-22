@@ -21,10 +21,63 @@ body {
 }
 
 #header {
+
   background-color: #675c47;
   margin: 10px 10px 0px 10px;
   height:           108px;
 }
+#taozi{
+  background-color: #675c47;
+}
+
+
+#p1{
+  background-color: #675c47;
+  display:inline-block;
+background-image: url("images/header.gif");
+width: 400px;
+height: 108px;
+
+
+}
+
+#p2 {
+background-color: #675c47;
+float: right;
+display:inline-block;
+background-image: url("images/header.gif");
+background-position: -400px 108px;
+width: 400px;
+height: 108px;
+
+}
+
+#award{
+  position: absolute;
+  top:30px;
+  left:365px;
+}
+
+#coupon{
+
+  position: fixed;
+  top:350px;
+  left: -250px;
+
+  transition:  1s ;
+
+}
+#coupon:hover{
+  position: fixed;
+  top:300px;
+  transform:translate(250px);
+}
+
+
+
+
+
+
 
 #main {
   display: table-cell;
