@@ -79,7 +79,7 @@ height: 108px;
 
 
 
-#main {
+#main, section#blog{
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
@@ -162,3 +162,23 @@ div#tableRow{
 #tableRow{
   display: table-row;
 }
+ul{
+  background-color: #efe5d0;
+  margin: 10PX 10PX 0PX 10PX;
+  list-style-type: none;
+  padding: 5PX 0PX 5PX 0PX;
+
+}
+ul li{
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+ul li a:link, ul li a:visited{
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+  ul li.selected{
+    background-color: #c8b99c;
+  }
