@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="chin">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,16 @@
   <title>Document</title>
 </head>
 <body>
+  <script>
+var person =["jojo","乔巴","舔狗"]
+var land =["外面","厕所" ,"食堂"]
+var shi =["吃饭", "使用替身攻击", " 打游戏"]
+var p,l,s
+p=Math.floor(Math.random()* person.length)
+l=Math.floor(Math.random()* land.length)
+s=Math.floor(Math.random()* shi.length)
+document.writeln(person[p] + "在" + land[l] + shi[s])
+  </script>
   
 </body>
 </html>
