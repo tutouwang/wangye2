@@ -1,0 +1,507 @@
+html {
+    position: relative; 
+}
+
+a, abbr, acronym, address, applet, article,
+aside, audio, b, big, blockquote, canvas, 
+caption, center, cite, code, dd, del, details,
+dfn, div, dl, dt, em, embed, fieldset, figcaption,
+figure, footer, form, h1, h2, h3, h4, h5, h6, header, 
+hgroup, i, iframe, img, ins, kbd, label, legend, li, mark, 
+menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section,
+small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot,
+th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+html,body{
+    min-width: 1100px;
+    color: #2c3a46;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 0px;
+}
+
+.phptpl-header .header-container .nav-list {
+    float: right;
+    zoom: 1; 
+    margin: 0px;
+}
+
+.phptpl-header .header-container .nav-list > li .product-center {
+  text-decoration: none;
+  color: #2c3a46; 
+}
+
+.phptpl-header .header-container .nav-list > li .product-center:hover {
+    color: #FF4444; 
+}
+
+.phptpl-header .header-container .nav-list .current-highlight {
+    color: #FF4444 !important; 
+}
+
+.phptpl-header .header-container .nav-list .current-highlight .caret:after {
+     border-top-color: #FF4444;
+}
+
+.phptpl-header .header-container .nav-list > li {
+    float: left;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    padding: 0px 20px; 
+}
+
+.phptpl-header .header-container .nav-link-container {
+    display: inline-block;
+    width: 60px;
+    margin-left: 10px;
+    margin-bottom: -1px; 
+}
+
+.phptpl-header .header-container .nav-link-container .nav-link {
+    float: left;
+    width: 78px;
+    color: #999;
+    font-size: 10px;
+    font-family: 'PingFang SC';
+    font-weight: 300;
+    line-height: 13px; 
+    margin: 0px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.phptpl-header{
+    width: 100%;
+    min-width: 1100px;
+    height: auto;
+    position: relative;
+    background: #ffffff;
+    border-bottom: 1px solid #ededed;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    z-index: 200;
+    transition: all 0.5s ease-in;
+    
+}
+
+.phptpl-header .header-container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1100px;
+    height: 70px;
+    zoom: 1;
+}
+
+.phptpl-header .header-container .logo{
+    display: inline-block;
+    width: 72px;
+    height: 25px;
+    background-size: 72px 25px;
+    background-image: url(logo.png);   
+    margin-top: 22.5px;    
+}
+
+
+.phptpl-header .header-container .nav-list .product-dropdown {
+    z-index: 200;
+}
+
+.phptpl-header .header-container .nav-list .product-dropdown div.active {
+    background: #f8f8f8;
+}
+
+.phptpl-header .header-container .nav-list .product-dropdown:hover .caret:after {
+    border-top-color: #FF4444;
+}
+
+.phptpl-header .header-container .nav-list .product-dropdown:hover .product-center {
+    color: #FF4444; 
+}
+
+.phptpl-header .header-container .nav-list .product-dropdown:hover .dropdown-menu-wrapper {
+    transform: rotate3d(0, 0, 0, 0deg);
+    transform-origin: 50% 0%;
+    max-height: 1000px; 
+}
+
+
+.phptpl-header .header-container .nav-list .product-dropdown:hover .dropdown-menu-wrapper {
+  transform: rotate3d(0, 0, 0, 0deg);
+  transform-origin: 50% 0%;
+  max-height: 1000px; 
+}
+
+.phptpl-header .header-container .nav-list .product-dropdown .dropdown-menu-wrapper {
+  position: absolute;
+  left: 0;
+  border-bottom: 0.5px solid #e5e5e5;
+  transform: rotate3d(1, 0, 0, -90deg);
+  z-index: 100;
+  max-height: 0px;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.07);
+  transform-origin: 50% 0%;
+  transition: 300ms ease-in-out;
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%; 
+}
+
+.phptpl-header .header-container .nav-list .product-dropdown:hover .caret:after {
+  border-top-color: #FF4444; 
+}
+
+  .phptpl-header .header-container .nav-list .current-highlight .caret:after {
+  border-top-color: #FF4444;
+}
+
+.phptpl-header .header-container .btn-login {
+    width: 80px;
+    height: 30px;
+    line-height: 28px;
+    display: inline-block;
+    border: 1px solid #2B90ED;
+    color: #2B90ED;
+    text-align: center;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.phptpl-header .header-container .btn-register_ {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: #2B90ED;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.phptpl-header .header-container li.login {
+    padding: 0px 0px 0px 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+.phptpl-header .header-container li.register {
+    padding: 0px 0px 0px 10px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+.phptpl-header .header-container .btn-login:hover{
+    background-color: #2B90ED;
+    color:white;
+}
+
+.phptpl-header .header-container .btn-register_:hover{
+    background-color:#6495ED;
+    color: white;
+}
+/* .l{
+    background-image: url(lzab.jpg);
+    width: auto;
+    height: 530px;
+    background-size: cover;
+    background-position: 50%;
+}
+.lz{font-size: 44px;
+     margin: 100px 0 7px;
+    line-height: 62px;
+     position: relative;
+     top:-400px;
+     left: 130px;
+
+}
+.lza{
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 55px;
+    position: relative;
+    top:-410px;
+    left:120px;
+}
+.lzaa{
+    position: relative;
+        font-size: 14px;
+        padding: 12px 22px;
+        
+        border-radius: 2px;
+        height: 20px;
+        width: 110px;
+        background-color: #2B90ED;
+        text-align:none;
+        top: -440px;
+        left:130px;
+}
+
+.hhh{
+   
+    color: #fff;
+    top:200px;
+    
+   
+}
+
+
+a{
+    text-decoration: none;
+
+}
+.dingwei{
+    top: -440px;
+    color: #999;
+    font-size: 11px;
+    position: relative;
+    left: 130px;
+    
+} */
+
+.banner-container{
+    height: 420px;
+}
+
+.pic-bg{
+    background-image: url(http://img.yzcdn.cn/public_files/2018/05/29/topbanner1@2x.jpg)
+}
+
+.swiper-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    box-sizing: content-box;
+}
+
+.swiper-container .pic-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.pic-text{
+    position: absolute;
+    width: 1100px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.swiper-container h3{
+    font-size: 44px;
+    margin: 100px 0 7px;
+    line-height: 62px;
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+}
+
+.swiper-container .pic-text p{
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 55px;
+}
+
+.button{
+    text-decoration: none;
+}
+
+
+.button .shiyong{
+    width: 160px;
+    height: 40px;
+    line-height: 18px;
+    display: inline-block;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a.button{
+    font-size: 14px;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 2px
+}
+a.shiyong{
+    background: #38f;
+    padding: 11px 51px;
+    color: #fff;
+}
+
+
+.swiper-container p.dianhua{
+    font-size: 14px;
+    color: #777;
+    margin-top: 18px;
+    display: block;
+}
+
+
+
+.main-container{
+    height: 620px;
+    position: relative;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    zoom: 1;
+}
+
+.wcard-content {
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: PingFangSC-Medium;
+    letter-spacing: 0;
+}
+.main-container .wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    zoom: 1;
+}
+
+.wrapper h3{
+    margin-top: 0px;
+}
+
+.main-container .wcard-container h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    line-height: 40px;
+    padding-top: 90px;
+}
+
+
+
+
+.main-container .wcard-container .wcard-content .wcard-left .wcard-section {
+    margin-bottom: 28px;
+}
+.main-container .wcard-container .wcard-content .wcard-left .wcard-section .wcard-sectitle {
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: PingFangSC-Medium;
+    letter-spacing: 0;
+}
+.main-container .wcard-container .wcard-content .wcard-left .wcard-section .wcard-secsummary {
+    margin-top: 5px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.main-container .wcard-section a.blue{
+    background-color: #38f;
+    color: #fff;
+}
+
+.main-container .wcard-section a.button {
+    font-size: 14px;
+    padding: 10px 42px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.main-container a.blue-outline{
+    border: 1px solid #38f;
+    color: #38f;
+    padding: 9px 42px;
+}
+
+.main-container  a.button{
+    font-size: 14px;
+    padding: 10px 42px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.main-container .wcard-container .wcard-content{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 70px;
+}
+
+/* .main-container .wcard-container .wcard-content .wcard-left{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+} */
+
+.main-container .wcard-container .wcard-content .wcard-right{
+    width: 615px;
+}
+
+.main-container .wcard-container .wcard-content .wcard-left{
+    height: 480px;
+    width: 480px;
+}
+
+.wcard-right{
+    position: absolute;
+    margin-top: -390px;
+    margin-left: 430px;
+}
+
+.main-container .wrapper .wcard-content .wcard-left .wcard-section{
+    margin-bottom: 0px;
+}
